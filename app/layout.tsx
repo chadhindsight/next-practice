@@ -30,14 +30,8 @@ export default function RootLayout({
       >
         <nav>
           {/* Prefetched when the link is hovered or enters the viewport */}
-          <li>
-            <Link href="/blog">Blog</Link>
-
-          </li>
-          <li>
-
-            <Link href="/contact">Contact</Link>
-          </li>
+          <Link href="/blog">Blog</Link>
+          <Link href="/contact">Contact</Link>
         </nav>
         {children}
       </body>
