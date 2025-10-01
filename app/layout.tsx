@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <nav>
-          {/* Prefetched when the link is hovered or enters the viewport */}
+          {/* This is prefetched when the link is hovered or enters the viewport */}
           <Link href="/blog">Blog Ting</Link>
           <Link href="/contact">Contact</Link>
         </nav>
